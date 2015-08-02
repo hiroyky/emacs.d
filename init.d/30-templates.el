@@ -14,6 +14,7 @@
 (add-to-list 'auto-insert-alist '("\\.cpp$"  . ["default.cpp" template-insert-default]))
 (add-to-list 'auto-insert-alist '("\\.c$"    . ["default.c" template-insert-default]))
 (add-to-list 'auto-insert-alist '("\\.h$"    . ["default.h" template-insert-default]))
+(add-to-list 'auto-insert-alist '("\\.org$"    . ["default.org" template-insert-default]))
 
 
 (defvar template-replacements-alists
@@ -27,10 +28,19 @@
     ;; ユーザー情報
     ("%full-name%" . (lambda () (identity user-full-name)))
     ("%mail%" . (lambda () (identity user-mail-address)))
+
+    ;; 日付
+    ("%Y" . (lambda () (format-time-string "%Y")))
+    ("%m" . (lambda () (format-time-string "%m")))
+    ("%d" . (lambda () (format-time-string "%d")))
+    ("%H" . (lambda () (format-time-string "%H")))
+    ("%M" . (lambda () (format-time-string "%M")))
+    ("%S" . (lambda () (format-time-string "%S")))
+
     )
   )
 
-
+(current-time)
 
 
 

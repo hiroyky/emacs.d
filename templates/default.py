@@ -3,6 +3,7 @@
 
 ##
 # @file %file%
+# @date %Y-%m-%d
 # @author %full-name% <%mail%>
 
 if __name__ == '__main__':
