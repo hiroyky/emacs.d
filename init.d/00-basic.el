@@ -39,3 +39,7 @@
 ;; ファイルサイズの表示
 ;; show file size
 (size-indication-mode -1)
+
+;;; 初期画面
+(setq inhibit-startup-message t)
+(setq initial-scratch-message nil)
