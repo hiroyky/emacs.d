@@ -51,7 +51,7 @@
 (add-to-list 'auto-mode-alist '("\\.shtml$" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.shtm$" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.json$" . json-mode))
-(add-to-list 'auto-mode-alist '("\\.md" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.md" . gfm-mode))
 (add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
 (add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
 (add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
