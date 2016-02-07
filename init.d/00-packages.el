@@ -6,7 +6,7 @@
   '(
     yasnippet
     web-mode
-    yatex
+    ;yatex
     auctex
     auto-complete
     python-mode
@@ -31,8 +31,8 @@
 
 ;; 読み込み設定
 ;; Configure for loading
-(autoload 'yatex-mode "yatex" "Yet Another LaTeX mode" t)
-(autoload 'yahtml-mode "yahtml" "Yet Another HTML mode" t)
+;(autoload 'yatex-mode "yatex" "Yet Another LaTeX mode" t)
+;(autoload 'yahtml-mode "yahtml" "Yet Another HTML mode" t)
 (autoload 'csharp-mode "csharp-mode" "Major mode for editing C# code." t)
 (autoload 'markdown-mode "markdown-mode" "Major mode for editing Markdown files" t)
 
@@ -41,11 +41,11 @@
 (add-to-list 'auto-mode-alist '("\\.py$" . python-mode))
 (add-to-list 'auto-mode-alist '("\\.cu$" . c++-mode))
 (add-to-list 'auto-mode-alist '("\\.cs$" . csharp-mode))
-(add-to-list 'auto-mode-alist '("\\.tex$" . yatex-mode))
-(add-to-list 'auto-mode-alist '("\\.cls$" . yatex-mode))
-(add-to-list 'auto-mode-alist '("\\.sty$" . yatex-mode))
-(add-to-list 'auto-mode-alist '("\\.clo$" . yatex-mode))
-(add-to-list 'auto-mode-alist '("\\.bbl$" . yatex-mode))
+;(add-to-list 'auto-mode-alist '("\\.tex$" . yatex-mode))
+;(add-to-list 'auto-mode-alist '("\\.cls$" . yatex-mode))
+;(add-to-list 'auto-mode-alist '("\\.sty$" . yatex-mode))
+;(add-to-list 'auto-mode-alist '("\\.clo$" . yatex-mode))
+;(add-to-list 'auto-mode-alist '("\\.bbl$" . yatex-mode))
 (add-to-list 'auto-mode-alist '("\\.html$" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.htm$" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.shtml$" . web-mode))
