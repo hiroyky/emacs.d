@@ -15,6 +15,7 @@
     json-mode
     markdown-mode
     paredit
+    yaml-mode
     php-mode
     ))
 
